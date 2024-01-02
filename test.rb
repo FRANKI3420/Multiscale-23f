@@ -32,10 +32,9 @@ g.data('Data', y_data)
 # ラベルの設定
 g.labels = Hash[x_data.each_with_index.map { |label, i| [i, label] }]
 
-# Y軸を対数軸に設定
 g.y_axis_increment = y_data.max
 g.y_axis_increment = y_data.max/2
-g.minimum_value = 0.01  # 対数軸の最小値（0だとエラーになるため適当な値を指定）
+g.minimum_value = 0.01
 
 # グラフを保存または表示
 g.write('output.png')
