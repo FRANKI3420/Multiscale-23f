@@ -1,5 +1,5 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
 
-gem 'gruff'
-gem 'roo'
-gem 'nokogiri', '1.15.5'
+# gem 'gruff'
+# gem 'roo'
+# gem 'nokogiri', '1.15.5'
